@@ -10,17 +10,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/",
-      "32": "images/",
-      "48": "images/",
-      "128": "images/"
+      "16": "images/iconhd-color.png",
+      "32": "images/iconhd-color.png",
+      "48": "images/iconhd-color.png",
+      "128": "images/iconhd-color.png"
     }
   },
   "icons": {
-    "16": "images/",
-    "32": "images/",
-    "48": "images/",
-    "128": "images/"
+    "16": "images/iconhd-color.png",
+    "32": "images/iconhd-color.png",
+    "48": "images/iconhd-color.png",
+    "128": "images/iconhd-color.png"
   },
   "manifest_version": 2
 }

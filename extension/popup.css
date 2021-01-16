@@ -78,12 +78,15 @@ p{
     transition: all 0.1s ease;
 }
 .btn {
-    height:50px;
-    margin-top:10px;
+    position: absolute;
+    top:20px;
+    right:10px;
+    padding:15px;
     line-height: normal;
     border: 0;
     border-radius: 5px;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
     color:#434343;
 }
@@ -96,4 +99,16 @@ p{
 }
 .btn:focus {
     outline: none;
+}
+.overlay {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
 }

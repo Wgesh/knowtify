@@ -9,11 +9,21 @@
   </head>
   <body>
     <div id="app">
+      <div id="login-page" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
       <div class="stats">
 
         <div style="display:inline-flex;">
           <h1 class="container" style="margin-right:0px; width:205px;">Notifications</h1>
-          <button class="btn container"><p style="margin:0px;padding:0;">Login Accounts</p></button>
+          <a class="btn container" onclick="openLogin()"><p style="margin:0px;padding:0;">Accounts</p></a>
         </div>
 
 

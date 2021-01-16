@@ -9,7 +9,7 @@ body{
 
 #app{
     width:450px;
-    min-height: 600px;
+    min-height: 700px;
     background-color: #262626;
 }
 h1{
@@ -24,10 +24,12 @@ p{
 }
 
 .stats{
-    position:absolute;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     width:100%;
     background-color: #101010;
+    padding-top:10px;
     padding-bottom:10px;
 
 }
@@ -38,7 +40,7 @@ p{
     padding-right:15px;
     padding-top:5px;
     padding-bottom:5px;
-    border-radius: 25px;
+    border-radius: 5px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
